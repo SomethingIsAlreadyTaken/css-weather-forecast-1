@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+    padding: 0;
+  	box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+body {
+	background-color: #3399CC;
+    color: #FFF;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+header,
+.container {
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 15px;
+	font-size: 1vw;
+}
+
+footer {
+	margin: 15px 0 15px 0;
+}
+h1 {
+	font-size: 1.5em;
+}
+
+ul {
+	font-size: 0;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+li {
+	display: inline-block;
+	width: 100%;
+	border: 2px solid #fff;
+	padding: 20px 0 15px 0;
+	text-align: center;
+	font-size: 1.2vw;
+}
+
+.single {
+    width: 25%;
+}
+
+.double {
+    width: 50%;
+}
+
+.triple {
+	width: 75%;
+}
+
+.quad {
+    width: 100%;
+}
+
+.blue {
+	background-color: #3399CC;
+}
+
+.lightblue {
+	background-color: #33CCCC;
+}
+
+.violet {
+	background-color: #996699;
+}
+
+.red {
+	background-color: #C24747;
+}
+
+.orange {
+	background-color: #E2674A;
+}
+
+.yellow {
+	background-color: #FFCC66;
+}
+
+.lightgreen {
+	background-color: #99CC99;
+}
+
+.weakgreen {
+	background-color: #669999;
+}
+
+.lightviolet {
+	background-color: #CC6699;
+}
+
+.stronggreen {
+	background-color: #339966;
+}
+
+.purple {
+	background-color: #666699;
+}
+
+li span {
+	color: rgba(255,255,255, 0.7);
+}
+
+main:hover li{
+	opacity: 0.5;
+}
+
+main li:hover {
+	opacity: 1;
+}
